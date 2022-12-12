@@ -22,7 +22,7 @@ Untuk memulai memasang tool ini, kita perlu memasang beberapa dependeci untuk me
 apt update && apt upgrade
 apt install python3 -y
 ```
-<summary><strong>Clone or Download Repository</strong></summary>
+<summary><strong>Clone atau Download Repository</strong></summary>
 
 ```bash
 git clone https://github.com/SuchMioko/ZeldaDSTranslation.git
@@ -31,6 +31,7 @@ Setelah ini kita hanya perlu memasang library python yang dipakai dalam kode too
 
 # Menjalankan tool
 Pertama kali anda harus menyimpan ROM zelda ke dalam folder **ZeldaDSTranslation** nama file harus dengan nama **zelda.nds** meskipun pada game zelda yang berbeda, program akan otomatis mengenal game tersebut dengan membaca Header ROM.
-Anda akan menukan sebuah file bernama **main.py** ini adalah file utama dalam menjalankan tool, katakan `python3 main.py -h` ke dalam terminal untuk menjalankan tool-nya, maka sebuah options tool akan di tampilkan kedalam layar terminal anda.
+
+Anda akan menemukan sebuah file bernama **main.py** ini adalah file utama dalam menjalankan tool, katakan `python3 main.py -h` ke dalam terminal untuk menjalankan tool-nya, maka sebuah options tool akan di tampilkan kedalam layar terminal anda.
 
 Untuk menghentikan atau jangan, membuat patch xdelta cukup tambahkan parameter -i ketika melakukan repack, katakan `python3 main.py -c -i` maka patch tidak akan dibuat.
